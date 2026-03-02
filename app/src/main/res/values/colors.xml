@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主色调：赛博朋克紫 -->
+    <color name="purple_500">#BB86FC</color>
+    <color name="purple_200">#CFA9FF</color>
+    <color name="purple_700">#9B67E0</color>
+
+    <!-- 次色调：霓虹青 -->
+    <color name="green_200">#03DAC6</color>
+    <color name="green_500">#018786</color>
+
+    <!-- 背景色：深空黑 -->
+    <color name="black">#121212</color>
+    <color name="dark_gray">#1E1E1E</color>
+
+    <!-- 文字颜色 -->
+    <color name="white">#E0E0E0</color>
+    <color name="text_secondary">#B0B0B0</color>
+
+    <!-- 额外点缀色 -->
+    <color name="neon_pink">#FF79C6</color>
+    <color name="neon_orange">#FFB86C</color>
+    <color name="neon_blue">#8BE9FD</color>
+</resources>
