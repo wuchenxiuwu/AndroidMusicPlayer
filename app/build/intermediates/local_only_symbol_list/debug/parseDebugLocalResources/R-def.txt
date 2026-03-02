@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+drawable button_outline
+drawable button_primary
+drawable ic_arrow_back
+drawable ic_music_note
+drawable legal_notice_background
+id agree_button
+id agreement_content
+id back_button
+id disagree_button
+id legal_notice
+id policy_content
+id privacy_policy
+id user_agreement
+layout activity_privacy_policy
+layout activity_splash
+layout activity_user_agreement
+string app_name

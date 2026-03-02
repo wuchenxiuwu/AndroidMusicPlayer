@@ -1,0 +1,17 @@
+pluginManagement {
+      repositories {
+          google() // 必须添加Google仓库
+          mavenCentral()
+          gradlePluginPortal() // 默认仓库
+      }
+  }
+  dependencyResolutionManagement {
+      repositories {
+          google()
+          mavenCentral()
+      }
+  }
+
+rootProject.name = "AndroidMusicPlayer"
+include ":app"
+

@@ -1,0 +1,215 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidmusicplayer"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+9        android:targetSdkVersion="36" />
+10
+11    <!-- 权限声明 -->
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:5:5-80
+12-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:5:22-77
+13    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+13-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:6:5-75
+13-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:6:22-72
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:7:5-77
+14-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:8:5-68
+15-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:8:22-65
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:9:5-77
+16-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:9:22-74
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:10:5-67
+17-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:10:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:11:5-79
+18-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:11:22-76
+19
+20    <permission
+20-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/e6648315ec2a7b00884b2676fbc4a285/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.androidmusicplayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/e6648315ec2a7b00884b2676fbc4a285/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/e6648315ec2a7b00884b2676fbc4a285/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.androidmusicplayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/e6648315ec2a7b00884b2676fbc4a285/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/e6648315ec2a7b00884b2676fbc4a285/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:13:5-56:19
+27        android:allowBackup="true"
+27-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:14:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.12.0] /root/.gradle/caches/transforms-4/e6648315ec2a7b00884b2676fbc4a285/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:15:9-43
+32        android:label="@string/app_name"
+32-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:16:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:17:9-54
+34        android:supportsRtl="true"
+34-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:18:9-35
+35        android:theme="@style/Theme.AndroidMusicPlayer"
+35-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:19:9-56
+36        android:usesCleartextTraffic="true" >
+36-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:20:9-44
+37
+38        <!-- 开屏页面作为启动页 -->
+39        <activity
+39-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:23:9-31:20
+40            android:name="com.example.androidmusicplayer.SplashActivity"
+40-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:24:13-43
+41            android:exported="true"
+41-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:25:13-36
+42            android:theme="@style/Theme.AndroidMusicPlayer.NoActionBar" >
+42-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:26:13-72
+43            <intent-filter>
+43-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:27:13-30:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:28:17-69
+44-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:28:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:29:17-77
+46-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:29:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:33:9-37:63
+50            android:name="com.example.androidmusicplayer.MainActivity"
+50-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:34:13-41
+51            android:exported="false"
+51-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:35:13-37
+52            android:label="@string/app_name"
+52-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:36:13-45
+53            android:theme="@style/Theme.AndroidMusicPlayer" />
+53-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:37:13-60
+54        <activity
+54-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:39:9-43:75
+55            android:name="com.example.androidmusicplayer.UserAgreementActivity"
+55-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:40:13-50
+56            android:exported="false"
+56-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:41:13-37
+57            android:parentActivityName="com.example.androidmusicplayer.SplashActivity"
+57-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:42:13-57
+58            android:theme="@style/Theme.AndroidMusicPlayer.NoActionBar" />
+58-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:43:13-72
+59        <activity
+59-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:45:9-49:75
+60            android:name="com.example.androidmusicplayer.PrivacyPolicyActivity"
+60-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:46:13-50
+61            android:exported="false"
+61-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:47:13-37
+62            android:parentActivityName="com.example.androidmusicplayer.SplashActivity"
+62-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:48:13-57
+63            android:theme="@style/Theme.AndroidMusicPlayer.NoActionBar" />
+63-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:49:13-72
+64
+65        <service
+65-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:51:9-54:40
+66            android:name="com.example.androidmusicplayer.service.MusicService"
+66-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:52:13-49
+67            android:enabled="true"
+67-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:53:13-35
+68            android:exported="false" />
+68-->/sdcard/Download/AndroidMusicPlayer/app/src/main/AndroidManifest.xml:54:13-37
+69
+70        <activity
+70-->[androidx.compose.ui:ui-test-manifest:1.5.4] /root/.gradle/caches/transforms-4/007fd5d2d1f405d7f1b5ce359f610e39/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:23:9-25:39
+71            android:name="androidx.activity.ComponentActivity"
+71-->[androidx.compose.ui:ui-test-manifest:1.5.4] /root/.gradle/caches/transforms-4/007fd5d2d1f405d7f1b5ce359f610e39/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:24:13-63
+72            android:exported="true" />
+72-->[androidx.compose.ui:ui-test-manifest:1.5.4] /root/.gradle/caches/transforms-4/007fd5d2d1f405d7f1b5ce359f610e39/transformed/jetified-ui-test-manifest-1.5.4/AndroidManifest.xml:25:13-36
+73        <activity
+73-->[androidx.compose.ui:ui-tooling-android:1.5.4] /root/.gradle/caches/transforms-4/b1bba3f58ffa783601383056b00ecdbe/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+74            android:name="androidx.compose.ui.tooling.PreviewActivity"
+74-->[androidx.compose.ui:ui-tooling-android:1.5.4] /root/.gradle/caches/transforms-4/b1bba3f58ffa783601383056b00ecdbe/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+75            android:exported="true" />
+75-->[androidx.compose.ui:ui-tooling-android:1.5.4] /root/.gradle/caches/transforms-4/b1bba3f58ffa783601383056b00ecdbe/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.4.0] /root/.gradle/caches/transforms-4/fd728fa0f981ec80e6eecaf3c1286c99/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.4.0] /root/.gradle/caches/transforms-4/fd728fa0f981ec80e6eecaf3c1286c99/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
+79            android:authorities="com.example.androidmusicplayer.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.4.0] /root/.gradle/caches/transforms-4/fd728fa0f981ec80e6eecaf3c1286c99/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.4.0] /root/.gradle/caches/transforms-4/fd728fa0f981ec80e6eecaf3c1286c99/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.4.0] /root/.gradle/caches/transforms-4/fd728fa0f981ec80e6eecaf3c1286c99/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.4.0] /root/.gradle/caches/transforms-4/fd728fa0f981ec80e6eecaf3c1286c99/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.4.0] /root/.gradle/caches/transforms-4/fd728fa0f981ec80e6eecaf3c1286c99/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.7.0] /root/.gradle/caches/transforms-4/ea9bd0cd9b47021cd1176016260262ab/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.7.0] /root/.gradle/caches/transforms-4/ea9bd0cd9b47021cd1176016260262ab/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.7.0] /root/.gradle/caches/transforms-4/ea9bd0cd9b47021cd1176016260262ab/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+89                android:value="androidx.startup" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+90        </provider>
+91
+92        <service
+92-->[androidx.room:room-runtime:2.6.1] /root/.gradle/caches/transforms-4/01fe730b8762c46948efef13af606741/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+93            android:name="androidx.room.MultiInstanceInvalidationService"
+93-->[androidx.room:room-runtime:2.6.1] /root/.gradle/caches/transforms-4/01fe730b8762c46948efef13af606741/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+94            android:directBootAware="true"
+94-->[androidx.room:room-runtime:2.6.1] /root/.gradle/caches/transforms-4/01fe730b8762c46948efef13af606741/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+95            android:exported="false" />
+95-->[androidx.room:room-runtime:2.6.1] /root/.gradle/caches/transforms-4/01fe730b8762c46948efef13af606741/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/caches/transforms-4/c54629fae9cea33e9cc74036ae688d22/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+114            </intent-filter>
+115        </receiver>
+116    </application>
+117
+118</manifest>
